@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+fastapi = "*"
+pydantic = "*"
+sqlservice = "*"
+python-multipart = "*"
+typing = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+cryptography = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+social-auth-core = {extras = ["openidconnect"], version = "*"}
+
+[requires]
+python_version = "3.8"
